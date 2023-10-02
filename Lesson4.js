@@ -18,12 +18,12 @@ function isPrime(num)
     if (num % n === 0 || num % (n + 2) === 0) return false
   }
 
-  return true;
+  return true
 }
 
 function generatePrimesUpToLength(startingNumber, length) 
 {
-  const prime = [];
+  const prime = []
   let currentNumber = startingNumber
 
   while (prime.length < length) 
@@ -35,7 +35,7 @@ function generatePrimesUpToLength(startingNumber, length)
     currentNumber++
   }
 
-  return prime;
+  return prime
 }
 
 rl.question("Введіть початкове число: ", (startingNumber) => {
